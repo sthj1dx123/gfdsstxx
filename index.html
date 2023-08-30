@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <title>FAST-NetWork</title>
+    <meta name="description" content="Fast-NetWork">
+    <meta name="keywords" content="云上Fast | Fast-Lab">
+    <link rel="stylesheet" type="text/css" href="css/index.min.css">
+
+    <link rel="shortcut icon" href="img/meta-lightpink.svg">
+    <link href="img/favicon.ico" rel="SHORTCUT ICON" />
+</head>
+
+<body>
+    <div class="background">
+        <canvas id="startrack" width="2560" height="1876"></canvas>
+        <div class="cover"></div>
+    </div>
+    <div class="main">
+        <div class="ch intro" style="position:relative;">
+            <div class="container">
+                <div class="hello">
+                    <h1 id="slogan">Fast-Lab</h1>
+                    <h1 id="slogan1">低价的又一个优质选择</h1>
+                    <h2>
+                        <div class="circle">
+                            <span></span> <span></span> <span></span>
+                        </div>
+                        更快的速度，从这里开始！
+                    </h2>
+                </div>
+            </div>
+            <center id="tipscroll" style="position:absolute;bottom:10px;left: 0;right: 0;opacity: 0.5;">More ↓</center>
+        </div>
+        <nav>
+            <a href="https://dash.pagkug.tk/#/register?code=6ySnlgvB">注册</a> <a class="clip"></a>
+            <a href="https://dash.ttiikk.com/#/login">登录</a> <a class="clip"></a>
+
+            <a href="https://stxx.cc/staff.html">Tos</a> <a class="clip"></a>
+        </nav>
+        <div class="ch about">
+            <div class="container">
+                <h2 class="chtitle">为什么选择 <span>Fast-Lab</span>?</h2>
+                <div class="clear">
+                    <div class="introduct" style="color:#ECECEC">
+                        <p> ◉ 10Gbps骨干网络，终极Fast！
+                        </p><br>
+                        <p> ◉ 使用业界顶级后端SOGA，为了稳定我们不惜一切代价。
+                        </p><br>
+                        <p> ◉ 提供IPLC线路支持无视高风险时期网络阻断，稳定高效。
+                        </p><br>
+                        <p> ◉ 独家SD-TCP服务器矩阵负载策略，BGP多线接入，延迟一降再降。
+                            <br>
+                        </p>
+                    </div>
+                    <ul class="skill clear">
+                        <li>
+                            <p>易用性</p>
+                            <div class="progress">
+                                <div style="width:90%;"></div>
+                                <span>购买订阅-参照教程-快速出海</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>稳定性</p>
+                            <div class="progress">
+                                <div style="width:95%;"></div>
+                                <span>多线路综合负载，容灾能力强</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>性价比</p>
+                            <div class="progress">
+                                <div style="width:99%;"></div>
+                                <span>以合理的价格提供可靠的服务</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>使用体验</p>
+                            <div class="progress">
+                                <div style="width:98%;"></div>
+                                <span>优质线路 &amp; 充足的冗余带宽，给您优良的体验</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="find ch">
+            <div class="container links">
+                <h3 style="color: #919090">世界，本无边界。</h3>
+                <h2 class="chtitle">Have a <span>Try</span>! </h2>
+                <br>
+                <div class="clear col-3">
+                    <a href="https://dash.pagkug.tk/#/register?code=6ySnlgvB">
+                        <div class="item">
+                            <div class="bg" style="background-color:#28a9e0"></div>
+                            <div class="inner"> <span>注册</span> </div>
+                        </div>
+                    </a>
+                    <a href="https://www.ttiikk.com/#/login">
+                        <div class="item">
+                            <div class="bg" style="background-color:#f896af"></div>
+                            <div class="inner"> <span>登陆</span> </div>
+                        </div>
+                    </a>
+                    <a href="https://stxx.cc/staff.html">
+                        <div class="item">
+                            <div class="bg" style="background-color:#0099ff"></div>
+                            <div class="inner"> <span>条款</span> </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer ch">
+        <div class="container">
+            <h3>云上FAST | Fast-Lab</h3>
+            <p>Global Network Node 全球网络节点</p>
+            <p class="c">Fast-Lab © 2023</p><br>
+            <p class="copyright">我们理解互联自由的原理，并在我们的代码中付诸实践。</p>
+        </div>
+    </div>
+    <iframe style="width: 100%; border: 0"></iframe>
+    <script src="js/index.js"></script>
+    <script>
+        function fade(e, opacity = 1) {
+            if (e.style.opacity <= 0) return;
+            e.style.opacity = opacity; setTimeout(() => { fade(e, opacity - 0.2) }, 100);
+        }
+        document.onscroll = () => { fade(document.getElementById("tipscroll")) }</script>
+</body>
+
+</html>
